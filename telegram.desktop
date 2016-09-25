@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Telegram
+GenericName="Cloud Messaging"
+Exec=telegram %U
+Icon=telegram
+Terminal=false
+StartupWMClass=Telegram
+Type=Application
+Categories=Network;Chat;InstantMessaging;
+MimeType=x-scheme-handler/tg;
