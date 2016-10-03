@@ -2,21 +2,21 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">updates.tdesktop.com</param>
-    <param name="path">/tlinux/tsetup.0.10.8.tar.xz</param>
+    <param name="path">/tlinux/tsetup.0.10.9.tar.xz</param>
   </service>
   <service name="verify_file">
-    <param name="file">_service:download_url:tsetup.0.10.8.tar.xz</param>
+    <param name="file">_service:download_url:tsetup.0.10.9.tar.xz</param>
     <param name="verifier">sha256</param>
-    <param name="checksum">416e8c43be1a099395bdbcf14810094f8f9498800084e36fa4246d4404653e0a</param>
+    <param name="checksum">14a4d45a777dc682c26a3d82b1cdb2cb0dfa8c8c1f794528f1b350ffa901a72a</param>
   </service>
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">updates.tdesktop.com</param>
-    <param name="path">/tlinux32/tsetup32.0.10.8.tar.xz</param>
+    <param name="path">/tlinux32/tsetup32.0.10.9.tar.xz</param>
   </service>
   <service name="verify_file">
-    <param name="file">_service:download_url:tsetup32.0.10.8.tar.xz</param>
+    <param name="file">_service:download_url:tsetup32.0.10.9.tar.xz</param>
     <param name="verifier">sha256</param>
-    <param name="checksum">b3b713eca3937d654cd8b2d1184096576d653042fe5ea420a4afa16e18db7893</param>
+    <param name="checksum">e76aed7ec6fcaa9798b73675e2bda7bce3281a46039077a50b62f31e07845d9e</param>
   </service>
 </services>
