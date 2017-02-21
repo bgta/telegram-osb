@@ -13,7 +13,7 @@
 # published by the Open Source Initiative.
 
 Name:		telegram
-Version:	1.0.5
+Version:	1.0.14
 Release:	1%{?dist}
 Summary:	Official Telegram Messenger app
 License:	GPL-3.0
@@ -53,6 +53,8 @@ export NO_BRP_CHECK_RPATH=true
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Tue Feb 21 2017 Raúl Romero García <bgta@opensuse.org> - 1.0.14-1
+- Telegram Desktop was updated to version 1.0.14.
 * Mon Feb 6 2017 Raúl Romero García <bgta@opensuse.org> - 1.0.5-1
 - Telegram Desktop was updated to version 1.0.5.
 * Tue Jan 24 2017 Raúl Romero García <bgta@opensuse.org> - 1.0.2-1
